@@ -4,4 +4,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_tundra.mk
+    $(LOCAL_DIR)/miku_tundra.mk
+
+COMMON_LUNCH_CHOICES := \
+     miku_tundra-user \
+     miku_tundra-userdebug \
+     miku_tundra-eng
